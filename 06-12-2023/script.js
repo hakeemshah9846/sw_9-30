@@ -77,7 +77,6 @@ person1.greeting();
 
 
 
-
 class Animal {
     name;
 
