@@ -347,6 +347,14 @@ switch (day) {
 
         //Functions
 
+    //Type of functions
+    //Named Function
+    //Anonymous function
+    //Arrow function
+    //Function with return
+    //Function with parameters
+    //Callback functions
+    
         //Function definition
         function printHello() {
             //Code block
