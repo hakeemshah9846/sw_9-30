@@ -354,6 +354,29 @@ switch (day) {
     //Function with return
     //Function with parameters
     //Callback functions
+    //Recursive functions
+
+    //Recursive function eg :
+    // Recursive function to update the counter
+    function Counter(currentValue, maxValue) {
+        // Base case: stop recursion if currentValue exceeds maxValue
+        if (currentValue > maxValue) {
+        return;
+        }
+
+        // Log the current value to the console
+        console.log(currentValue);
+    
+        //Call the function without any delay
+        Counter(currentValue + 1, maxValue)
+
+        // Call the function again with incremented value after a delay
+        // setTimeout(() => Counter(currentValue + 1, maxValue), 1000); // Increment every second
+    }
+
+    // Start the counting process
+    Counter(0, 10); // Start counting from 0 to 10
+
     
         //Function definition
         function printHello() {
